@@ -26,7 +26,7 @@ enum class GlUsage {
     DYNAMIC_COPY   = 0x88EA
 };
 
-enum GlDrawFunc {
+enum class GlDrawFunc {
     DRAW_ARRAYS    = 0x0000,
     DRAW_ELEMENTS  = 0x0001
 };
