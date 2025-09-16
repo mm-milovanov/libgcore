@@ -19,12 +19,12 @@ void RenderState::setElementBuffer(ElementBuffer& buffer) {
 
 void RenderState::connect() {
     // Generate VAO
-    glGenVertexArrays(1, &m_vaoId);
+    glGenVertexArrays(1, &m_vaoName);
 
-    assert(m_vaoId);
+    assert(m_vaoName);
 
     // Bind VAO
-    glBindVertexArray(m_vaoId);
+    glBindVertexArray(m_vaoName);
 
     // m_program.enable();
 
@@ -37,11 +37,11 @@ void RenderState::connect() {
 }
 
 void RenderState::bind() const {
-    // assert(m_vaoId);
+    // assert(m_vaoName);
 
     m_program.enable();
 
-    // glBindVertexArray(m_vaoId);
+    // glBindVertexArray(m_vaoName);
 
     // Bind VBO and it's attributes to VAO
     for (auto& buffer : m_vertexbuffers)

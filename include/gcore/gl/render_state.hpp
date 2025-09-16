@@ -24,7 +24,7 @@ public:
 private:
     /* Private fields */
 
-    unsigned int              m_vaoId;
+    unsigned int              m_vaoName;
     ShaderProgram             m_program;
     std::vector<VertexBuffer> m_vertexbuffers;
     ElementBuffer             m_elementBuffer;
