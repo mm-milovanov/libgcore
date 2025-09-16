@@ -1,3 +1,1 @@
-# Hexvel-graphics
-
-Hexagonal volume element engine graphics core
+# Cpp Graphics Core Library

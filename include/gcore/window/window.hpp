@@ -1,8 +1,8 @@
 #ifndef __window_hpp__
 #define __window_hpp__
 
-#include <hexvel-graphics/linalg/vec2.hpp>
-#include <hexvel-graphics/graphics/render_target.hpp>
+#include <gcore/linalg/vec2.hpp>
+#include <gcore/graphics/render_target.hpp>
 
 class WindowImpl;
 

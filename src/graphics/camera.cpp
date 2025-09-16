@@ -1,4 +1,4 @@
-#include <hexvel-graphics/graphics/camera.hpp>
+#include <gcore/graphics/camera.hpp>
 
 #include "../linalg/linalg.hpp"
 

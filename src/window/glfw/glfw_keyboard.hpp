@@ -1,9 +1,9 @@
 #ifndef __glfw_keyboard_hpp__
 #define __glfw_keyboard_hpp__
 
-#include <hexvel-graphics/gl/gl_resource.hpp>
+#include <gcore/gl/gl_resource.hpp>
 
-// #include <hexvel-graphics/window/keyboard.hpp>
+// #include <gcore/window/keyboard.hpp>
 
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
 

@@ -1,8 +1,8 @@
 #ifndef __vertex_buffer_hpp__
 #define __vertex_buffer_hpp__
 
-#include <hexvel-graphics/gl/gl_resource.hpp>
-#include <hexvel-graphics/gl/shader_program.hpp>
+#include <gcore/gl/gl_resource.hpp>
+#include <gcore/gl/shader_program.hpp>
 
 #include <string>
 #include <vector>

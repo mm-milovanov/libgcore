@@ -1,5 +1,5 @@
-#include <hexvel-graphics/window/window.hpp>
-#include <hexvel-graphics/gl/shader_program.hpp>
+#include <gcore/window/window.hpp>
+#include <gcore/gl/shader_program.hpp>
 
 #include <iostream>
 #include <cassert>

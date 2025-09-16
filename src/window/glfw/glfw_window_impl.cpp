@@ -1,7 +1,7 @@
 #include "glfw_window_impl.hpp"
 #include "glfw_keyboard.hpp"
 
-#include <hexvel-graphics/gl/gl_resource.hpp>
+#include <gcore/gl/gl_resource.hpp>
 
 #include <iostream>
 

@@ -1,4 +1,4 @@
-#include <hexvel-graphics/gl/render_state.hpp>
+#include <gcore/gl/render_state.hpp>
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>

@@ -1,4 +1,4 @@
-#include <hexvel-graphics/gl/element_buffer.hpp>
+#include <gcore/gl/element_buffer.hpp>
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>

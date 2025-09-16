@@ -1,5 +1,5 @@
-#include <hexvel-graphics/gl/gl_error.hpp>
-#include <hexvel-graphics/gl/gl_resource.hpp>
+#include <gcore/gl/gl_error.hpp>
+#include <gcore/gl/gl_resource.hpp>
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>

@@ -1,7 +1,7 @@
 #ifndef __element_buffer__
 #define __element_buffer__
 
-#include <hexvel-graphics/gl/gl_resource.hpp>
+#include <gcore/gl/gl_resource.hpp>
 
 #include <cstddef>
 

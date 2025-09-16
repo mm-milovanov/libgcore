@@ -49,7 +49,7 @@ bool operator ==(const Vec3<T>& left, const Vec3<T>& right);
 template <typename T>
 bool operator !=(const Vec3<T>& left, const Vec3<T>& right);
 
-#include <hexvel-graphics/linalg/vec3.inl>
+#include <gcore/linalg/vec3.inl>
 
 /* Define the most common types */
 typedef Vec3<int>           Vec3i;

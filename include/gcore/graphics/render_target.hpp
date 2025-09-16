@@ -2,12 +2,12 @@
 #define __render_target_hpp__
 
 // #include <system/noncopyable.hpp>
-#include <hexvel-graphics/graphics/color.hpp>
-#include <hexvel-graphics/graphics/camera.hpp>
-#include <hexvel-graphics/linalg/transform.hpp>
-#include <hexvel-graphics/linalg/vec2.hpp>
-#include <hexvel-graphics/gl/render_state.hpp>
-#include <hexvel-graphics/gl/shader_program.hpp>
+#include <gcore/graphics/color.hpp>
+#include <gcore/graphics/camera.hpp>
+#include <gcore/linalg/transform.hpp>
+#include <gcore/linalg/vec2.hpp>
+#include <gcore/gl/render_state.hpp>
+#include <gcore/gl/shader_program.hpp>
 
 class IDrawable;
 class VertexArray;

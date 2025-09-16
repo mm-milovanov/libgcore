@@ -1,5 +1,5 @@
-#include <hexvel-graphics/gl/vertex_buffer.hpp>
-#include <hexvel-graphics/gl/gl_error.hpp>
+#include <gcore/gl/vertex_buffer.hpp>
+#include <gcore/gl/gl_error.hpp>
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>

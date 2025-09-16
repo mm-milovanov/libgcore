@@ -2,7 +2,7 @@
 #define __window_impl_hpp__
 
 // #include <system/noncopyable.hpp>
-#include <hexvel-graphics/linalg/vec2.hpp>
+#include <gcore/linalg/vec2.hpp>
 
 class WindowImpl // : NonCopyable
 {

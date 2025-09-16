@@ -1,7 +1,7 @@
-#include <hexvel-graphics/graphics/render_target.hpp>
-#include <hexvel-graphics/graphics/drawable.hpp>
+#include <gcore/graphics/render_target.hpp>
+#include <gcore/graphics/drawable.hpp>
 
-#include <hexvel-graphics/gl/gl_error.hpp>
+#include <gcore/gl/gl_error.hpp>
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>

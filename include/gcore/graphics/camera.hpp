@@ -1,8 +1,8 @@
 #ifndef __camera_hpp__ 
 #define __camera_hpp__
 
-#include <hexvel-graphics/linalg/vec3.hpp>
-#include <hexvel-graphics/linalg/transform.hpp>
+#include <gcore/linalg/vec3.hpp>
+#include <gcore/linalg/transform.hpp>
 
 class Camera {
 public:

@@ -1,9 +1,9 @@
 #ifndef __render_state_hpp__
 #define __render_state_hpp__
 
-#include <hexvel-graphics/gl/shader_program.hpp>
-#include <hexvel-graphics/gl/vertex_buffer.hpp>
-#include <hexvel-graphics/gl/element_buffer.hpp>
+#include <gcore/gl/shader_program.hpp>
+#include <gcore/gl/vertex_buffer.hpp>
+#include <gcore/gl/element_buffer.hpp>
 
 #include <vector>
 

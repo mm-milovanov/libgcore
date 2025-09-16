@@ -1,7 +1,7 @@
 #ifndef __glfw_window_impl_hpp__
 #define __glfw_window_impl_hpp__
 
-#include <hexvel-graphics/gl/gl_resource.hpp>
+#include <gcore/gl/gl_resource.hpp>
 
 #include "../window_impl.hpp"
 

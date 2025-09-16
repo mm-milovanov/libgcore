@@ -1,7 +1,7 @@
 #ifndef __linalg_hpp__
 #define __linalg_hpp__
 
-#include <hexvel-graphics/linalg/vec3.hpp>
+#include <gcore/linalg/vec3.hpp>
 
 float dot(Vec3f left, Vec3f right);
 

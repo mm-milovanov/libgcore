@@ -1,4 +1,4 @@
-#include <hexvel-graphics/graphics/color.hpp>
+#include <gcore/graphics/color.hpp>
 
 Color::Color() :
     r(0.f), g(0.f), b(0.f), a(1.f)

@@ -1,7 +1,7 @@
 #ifndef __shader_program_hpp__
 #define __shader_program_hpp__
 
-#include <hexvel-graphics/gl/gl_resource.hpp>
+#include <gcore/gl/gl_resource.hpp>
 
 #include <string>
 #include <unordered_map>

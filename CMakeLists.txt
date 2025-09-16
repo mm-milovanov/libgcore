@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.22)
 
-project(hexvel-graphics LANGUAGES CXX)
+project(gcore LANGUAGES CXX)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
