@@ -48,14 +48,10 @@ void GlfwWindowImpl::create(Vec2u size, const char* name)
 
     // glfwSetKeyCallback(_window, key_callback);  
 
-    /* Connect GLEW (to window?) */
-    glewExperimental = GL_TRUE;
-    GLenum st = glewInit();
-    if (st != GLEW_OK)
-    {
-        std::cout << "Failed to initialize GLEW" << std::endl;
-        throw;
-    }
+    /* Connect GLAD */
+    gladLoadGL(glfwGetProcAddress);
+    // int version = 
+    // __log_info("GLAD GL %d.%d\n", GLAD_VERSION_MAJOR(version), GLAD_VERSION_MINOR(version));
 
     glEnable(GL_DEPTH_TEST);
 

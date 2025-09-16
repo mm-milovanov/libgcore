@@ -2,7 +2,21 @@ cmake_minimum_required(VERSION 3.22)
 
 project(gcore LANGUAGES CXX)
 
+# 
+add_subdirectory(ext/glfw-3.4)
+add_subdirectory(ext/glad)
+
+set(GCORE_INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR}/ext/glad/include)
+# 
+
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+set(
+    GCORE_INCLUDE_DIRS 
+    ${GCORE_INCLUDE_DIRS}
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
 
 add_compile_options(-save-temps)
 add_compile_options(-Wall -Wextra -Werror)
@@ -42,22 +56,13 @@ target_include_directories(${PROJECT_NAME}
     PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/include
     PRIVATE
+    ${GCORE_INCLUDE_DIRS}
     ${CMAKE_CURRENT_SOURCE_DIR}/src/window
     ${CMAKE_CURRENT_SOURCE_DIR}/src/linalg
 )
 
 target_link_libraries(${PROJECT_NAME}
     PRIVATE
-    GL
-    GLU
-    glfw3
-    X11
-    Xxf86vm
-    Xrandr
-    pthread
-    Xi
-    dl
-    Xinerama
-    Xcursor
-    GLEW
+    glad
+    glfw
 )

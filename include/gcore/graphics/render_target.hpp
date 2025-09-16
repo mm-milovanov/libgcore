@@ -25,11 +25,11 @@ public:
     void draw(const IDrawable   &object,
                     RenderState  states);
 
-    void draw(const RenderState &state,
-              GlDrawFunc        drawFun,
-              GlPrimitiveType type,
-              std::size_t  firstVertex,
-              std::size_t  vertexCount );
+    void draw(const RenderState     &state,
+                    GlDrawFunc       drawFun,
+                    GlPrimitiveType  type,
+                    std::size_t      firstVertex,
+                    std::size_t      vertexCount );
 
     void clear(Color color = Color::black);
 
@@ -42,10 +42,10 @@ protected:
 private:
     /* Private methods */
 
-    void drawPrimitives(GlDrawFunc       draw,
+    void drawPrimitives(GlDrawFunc      draw,
                         GlPrimitiveType type,
-                        std::size_t         firstVertex,
-                        std::size_t         vertexCount );
+                        std::size_t     firstVertex,
+                        std::size_t     vertexCount );
 
     /* Private fields */
 
